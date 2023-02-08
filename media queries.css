@@ -1,0 +1,171 @@
+
+/* this code will only run when width of screen is 991px or less than 991px */
+@media screen and (max-width: 991px) {
+    h3{
+        font-size: 1.3rem;
+    }
+
+  .nav-toggle{
+    display:block;
+    margin-right: 20px;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .examples-card{
+    width: calc(50% - 18px);
+    height: 250px;
+  }
+
+  .cta-section{
+    padding: 60px var(--padding-inline-section) 60px;
+    background-color: #183b54;
+  }
+
+  .panel-section-container{
+    flex-direction: column-reverse;
+    padding-bottom: 2rem;
+}
+
+.upper-img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top: 50%;
+    margin-top: -80px;
+}
+
+.panel-right-text{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    margin-left: -40px;
+    top: 50%;
+    margin-top: -38px;
+}
+
+.panel-right-text h3{
+    font-size: small;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+
+    h1{
+        font-size: 2.2rem;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-left{
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .header-right{
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-right img{
+        width: 60%;
+    }
+
+    .companies-header{
+        margin: 3rem auto 1rem;
+    }
+
+    .logo{
+        height: 35px;
+    }
+
+    .features-section{
+        padding: 100px var(--padding-inline-section) 0;
+    }
+
+    .features-card{
+        min-width: 50%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .link-column{
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    :root{
+        --padding-inline-section: 10px
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    
+    h2{
+        font-size: 1.3rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+
+    .features-card{
+        min-width: 100%;
+    }
+
+    .examples-card{
+        width: 100%;
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .feature-img{ 
+        display: flex;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+    
+    .feature-img img{
+        width: 80%;
+    }
+    
+    .reverse{
+        flex-direction: column-reverse;
+    }
+
+    .feature-desc{
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
